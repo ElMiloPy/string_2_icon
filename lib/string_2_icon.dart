@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import './icon_list.dart' show iconDataMap;
 
 String _camelize(String text) {
-  String newString = text.replaceAllMapped(RegExp(r'[-_\s.]+(.)?'), (Match match) => match.group(1)?.toUpperCase() ?? '');
+  String newString = text.replaceAllMapped(RegExp(r'[-_\s.]+(.)?'),
+      (Match match) => match.group(1)?.toUpperCase() ?? '');
   return newString.substring(0, 1).toLowerCase() + newString.substring(1);
 }
 
