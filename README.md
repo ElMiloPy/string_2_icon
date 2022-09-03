@@ -28,4 +28,4 @@ Icon(String2Icon.getIconDataFromString('alarm.panel'), color: Colors.red,)
 ...
 ```
 
-The method getIconDataFromString can return an IconData or null. You can use dash (-), underscore(_), dot(.) or include mdi preffix on the icon string name;
+The method `getIconDataFromString` can return an IconData or null. You can use dash (-), underscore(_), dot(.) or include mdi preffix on the icon string name;
