@@ -1,6 +1,6 @@
 name: string_2_icon
 description: A Flutter package to generate IconData from a string. Currently only working with Material Design Icons
-version: 0.0.1
+version: 0.0.1+1
 homepage: https://github.com/ajomuch92/string_2_icon
 
 environment:

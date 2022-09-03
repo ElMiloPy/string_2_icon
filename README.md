@@ -1,6 +1,6 @@
 # String 2 Icons Flutter
 
-This package convert a string to an IconData to get show its icon representation. Currently only working with Material Design Icons;
+This package convert a string to an IconData to show its icon representation. Currently only working with Material Design Icons.
 
 ## Instalation
 Include `string_2_icon` in your `pubspec.yaml` file:
@@ -30,4 +30,4 @@ Icon(String2Icon.getIconDataFromString('alarm.panel'), color: Colors.red,)
 
 The method `getIconDataFromString` can return an IconData or null. You can use dash (-), underscore(_), dot(.) or include mdi preffix on the icon string name;
 
-**NOTE** Remember to install the [Material Design Icons](https://pub.dev/packages/material_design_icons_flutter) before use this package.
+**NOTE:** Remember to install the [Material Design Icons](https://pub.dev/packages/material_design_icons_flutter) before use this package.
