@@ -28,6 +28,6 @@ Icon(String2Icon.getIconDataFromString('alarm.panel'), color: Colors.red,)
 ...
 ```
 
-The method `getIconDataFromString` can return an IconData or null. You can use dash (-), underscore(_), dot(.) or include mdi preffix on the icon string name;
+The method `getIconDataFromString` can return an IconData or null. You can use dash (-), underscore(_), dot(.) or include mdi preffix on the icon string name.
 
 **NOTE:** Remember to install the [Material Design Icons](https://pub.dev/packages/material_design_icons_flutter) before use this package.
