@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
+/// Map object containing the definition for all Material Design icons
 Map<String, IconData> iconDataMap = {
   'abTesting': MdiIcons.abTesting,
   'abacus': MdiIcons.abacus,
