@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-static const Map<String, IconData> iconDataMap = {
+final Map<String, IconData> iconDataMap = {
   'ten_k': Icons.ten_k,
   'ten_k_sharp': Icons.ten_k_sharp,
   'ten_k_rounded': Icons.ten_k_rounded,
